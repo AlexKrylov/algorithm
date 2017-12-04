@@ -5,7 +5,9 @@ public class Main {
     private  static Random random = new Random();
 
     public static void main(String[] args) {
-        automorphic(100000000);
+        System.out.println(random());
+        System.out.println(withUtilRandom());
+        automorphic(10000);
     }
 
     //Случайное число с использованием Math.random();
